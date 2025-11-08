@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "program_enkripsi_kriptografi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

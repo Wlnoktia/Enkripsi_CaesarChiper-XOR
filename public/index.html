@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🔐 XOR + Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 XOR + Caesar Cipher Encryption</h1>
+
+    <label>Pesan Asli:</label>
+    <input type="text" id="message" placeholder="Masukkan teks">
+
+    <label>Kunci Caesar (angka):</label>
+    <input type="number" id="caesarKey" placeholder="Contoh: 3">
+
+    <label>Kunci XOR (teks):</label>
+    <input type="text" id="xorKey" placeholder="Contoh: key123">
+
+    <button onclick="encryptMessage()">Encrypt</button>
+
+    <label>Hasil Enkripsi:</label>
+    <textarea id="cipher" rows="4" cols="60" readonly></textarea>
+
+    <button onclick="decryptMessage()">Decrypt</button>
+
+    <label>Hasil Dekripsi:</label>
+    <textarea id="decrypted" rows="2" cols="60" readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
